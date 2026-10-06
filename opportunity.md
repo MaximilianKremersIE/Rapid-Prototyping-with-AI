@@ -1,6 +1,6 @@
 ---
 name: opportunity
-description: Housing search platform for international students; 15 interviews conducted; identifies fragmentation and anxiety as core pain point
+description: Housing discovery platform helping international students arrive at university already settled; problem is fragmented, arduous discovery; 15 interviews conducted
 sources: [chat]
 aliases: [housing platform, student housing opportunity]
 ---
@@ -22,23 +22,25 @@ Current workarounds: pay agents (expensive), grind a single platform alone (drai
 
 ## Pain Point
 
-International students face a critical deadline: one month before university starts. If they haven't secured housing by then, they arrive stressed and anxious. They search fragmented platforms (Idealista dominant) with low visibility, exhausting themselves scrolling through irrelevant options while the clock runs out. Unable to find housing matching their criteria in time, they panic-settle for worse options (wrong neighborhood, overpay, poor conditions) just to have *something* locked in before arrival.
+The problem is **discovery**, and the process around it is arduous rather than simple. Listings are spread across Idealista, Fotocasa, Badi, Spotahome, HousingAnywhere, agency sites and private groups, and each shows only part of the market. Students don't know most of these exist, can't search them efficiently in a foreign language, and can't tell which listings are real, current or fairly priced. Every step (finding, filtering, contacting, verifying, applying) is manual and slow.
+
+Because the process is so slow, the calendar beats them. With about one month to go before university starts, students who haven't secured a place give up their criteria and panic-settle for whatever responds (wrong neighbourhood, overpriced, poor condition) just to have something locked in.
 
 ## User Need
 
-Students need to see all available housing options that match their criteria in one place because they lack visibility into the full market and spend disproportionate effort searching fragmented systems.
+Students need a simple, straightforward way to see every available, verified option that matches their criteria in one place, and to move from discovery to a signed lease quickly, because the fragmented and arduous process is what stops them securing the right place before they arrive.
 
 ## Insight
 
-The job is not primarily about reducing ongoing anxiety during university. It's about *arriving already settled*. Students need to lock in housing *before* they arrive so they can start the year focused, not still searching and panicking. The deadline (one month before university starts) is the forcing function; fragmentation is the friction that prevents them from meeting it. Under time pressure, students abandon their criteria and settle for worse outcomes rather than keep searching.
+The job is not "find an apartment"; it is **arrive at university already settled**. Settled means housing secured, verified and matching their criteria *before* arrival, so the first weeks go to university, not to searching. The one-month-before deadline is the forcing function; fragmented, arduous discovery is the friction that stops students meeting it. Under that time pressure, students abandon their criteria rather than keep searching. Making discovery simple moves the moment of decision earlier, and that early decision is what lets students arrive settled.
 
 ## How Might We
 
-How might we help international students secure housing matching their criteria and arrive at university already settled, before the deadline forces them to panic-settle for worse options?
+How might we make housing discovery simple and straightforward enough that international students secure a verified place matching their criteria before they arrive, so they start university already settled?
 
 ## Business Idea (Early Stage)
 
-AI-powered housing search platform that aggregates listings from Spanish real estate websites and connects students directly to landlords and agencies, with language support and student-specific filtering.
+AI-powered housing discovery platform that consolidates available listings from Spanish rental sources into one simple search, **verifies** them, and helps students contact landlords and agencies quickly, in their language, with student-specific filters (campus proximity, budget, move-in date). Success is measured by whether students sign a place matching their criteria before arrival, not by how many listings they browse.
 
 ## Key Assumptions by Risk Area
 

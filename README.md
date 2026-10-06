@@ -2,10 +2,10 @@
 # Opportunity
 
 ## Pain point
-International students spend months searching across fragmented platforms with limited visibility into available options, resulting in high stress and late housing decisions.
+International students have to find housing in an unfamiliar city, in a foreign language, across fragmented platforms that each show only part of the market. The process is arduous and opaque: weeks of scrolling, unanswered messages and listings they can't verify. Most only secure a place days or weeks before classes, so they arrive still searching, or settled into something worse than they wanted.
 
 ## User, need, and insight
-International students relocating to a new city for their studies, often for the first time, with no prior experience navigating real estate websites or housing searches need to see all available housing options that match their criteria in one place because they experience significant anxiety and mental strain from housing uncertainty, which delays their ability to settle in and focus on university.
+International students relocating to a new city for their studies, often for the first time and with no experience of the local rental market, need a simple, straightforward way to discover every available, verified option that matches their criteria, because the goal is not just finding *a* place but **arriving at university already settled**. When the search is too fragmented and slow, the deadline wins and they give up their criteria to get anything locked in.
 
 ## How might we
-How might we consolidate fragmented housing options so international students can make confident decisions quickly and reduce the mental burden of the search?
+How might we make housing discovery simple and straightforward enough that international students secure a verified place matching their criteria before they arrive, so they start university already settled?
