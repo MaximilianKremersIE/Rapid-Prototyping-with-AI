@@ -69,7 +69,7 @@ These describe a persona as a group. They are not facts about any one student an
 |---|---|---|
 | [01 Deadline Panic Settler](personas/drafts/persona-hypothesis-01.md) | Budget | €600–900/month |
 | [01 Deadline Panic Settler](personas/drafts/persona-hypothesis-01.md) | Spanish level | Basic to functional |
-| [01 Deadline Panic Settler](personas/drafts/persona-hypothesis-01.md) | Search start | Procrastinates until 4–6 weeks before arrival |
+| [01 Deadline Panic Settler](personas/drafts/persona-hypothesis-01.md) | Search start | Underestimates how long the search takes; starts 4–6 weeks before arrival |
 | [01 Deadline Panic Settler](personas/drafts/persona-hypothesis-01.md) | When pressure hits | 1–2 weeks before arrival |
 | [02 Prepared Insider](personas/drafts/persona-hypothesis-02.md) | Profile | Native or fluent Spanish, €2,000+, mentor guidance, early start; based on one student (Valentina) |
 
