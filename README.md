@@ -19,4 +19,6 @@ IE University, Rapid Prototyping with AI, Group Project I. International student
 | [evidence-log/personas/drafts/](evidence-log/personas/drafts/) | Persona hypotheses 01–06: Deadline Panic Settler, Prepared Insider, Paying Guarantor Parent, Small Landlord or Agency, One-Year Master's Student, One-Semester Exchange Student |
 | [prototype/README.md](prototype/README.md) | Prototype v0 link (Lovable) and PDF export (TODO: team) |
 | [supporting/verification.md](supporting/verification.md) | What "verified" means, verification levels, scam red flags, tests |
+| [supporting/market/competitors.md](supporting/market/competitors.md) | Sourced competitor table: portals, booking platforms, residences, IE housing services, AI assistants |
+| [supporting/market/market-sizing.md](supporting/market/market-sizing.md) | New international bachelor's students per year at IE (sourced), provisional Madrid-campus scenarios, unresolved steps, other Madrid universities |
 | [supporting/research/](supporting/research/README.md) | Research tools: supply-audit CSV, student survey, landlord interview guide, legal review brief |
