@@ -75,9 +75,9 @@ AI-powered housing discovery platform that consolidates available listings from 
 
 ## Riskiest Assumption
 
-**Legal operability under GDPR and Spanish data protection law.** Can the platform collect, store, and use student data + communicate with landlords/agencies on their behalf without violating data privacy regulations? If not, the entire business model fails before market viability or user adoption can be tested.
+**Consolidated discovery surfaces materially more available listings that match a student's criteria than the student finds on their own (mostly Idealista), early enough to sign before arrival.** If most matching listings are already on Idealista, consolidation adds little and the value proposition collapses. Reasoning and test plan: `riskiest-assumption.md`.
 
-Secondary assumption: Can the platform legally scrape/access listings from Spanish real estate websites without legal consequence?
+Legal operability (GDPR, Spanish data protection, terms for accessing listings, and the 2023 Housing Law on who pays agency fees) is now a **must-check constraint** that runs in parallel. It is critical, but cheap to resolve and largely possible to design around.
 
 ## Current Evidence Base
 
