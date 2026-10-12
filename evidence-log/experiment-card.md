@@ -1,7 +1,7 @@
 ---
 name: experiment-card
 description: Experiment cards for the three tests, in run order; supply audit (highest-risk hypothesis, discovery value), concierge pilot (arriving settled), landlord response test (blocking roadblock)
-sources: [assumptions.md, goals.md, recruitment.md, ../supporting/verification.md, ../supporting/research/README.md, ../downloads/ai-prompt-experiment-card.md]
+sources: [assumptions.md, goals.md, ERRC.md, recruitment.md, ../supporting/verification.md, ../supporting/research/README.md, ../downloads/ai-prompt-experiment-card.md]
 aliases: [experiment cards, smallest test, test plan]
 ---
 
@@ -86,7 +86,7 @@ TODO (team): fill after the test runs.
 
 ## Card 2: Concierge pilot
 
-Tests the outcome we promise: **arriving already settled**. Runs after Card 1, unless Card 1 says pivot.
+Tests the outcome we promise: **arriving already settled**, and the [value-innovation hypothesis](ERRC.md#value-innovation-hypothesis) in the ERRC grid. Runs after Card 1, unless Card 1 says pivot.
 
 ### Hypothesis
 International students who receive a hand-run discovery and verification service sign a place that meets all their must-have criteria at least 21 days before arrival.

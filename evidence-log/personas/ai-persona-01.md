@@ -38,7 +38,7 @@ International student on a first housing search in Madrid, with a €600–900/m
 | Gets few landlord replies | REPORTED | Luca: 10 contacted, 2 replied (one interview) |
 | Gives up a criterion to sign before the deadline | REPORTED | All 5 students gave up their neighbourhood |
 | Feels low confidence after signing | REPORTED | Mariana. Luca's quote needs checking: TODO (team): check transcript |
-| Market scarcity, not search inefficiency, is the bottleneck | SUPPORTED | Pattern across 5 students; contradicts the [riskiest assumption](../assumptions.md#riskiest-assumption) |
+| Market scarcity, not search inefficiency, is the bottleneck | HYPOTHESIS | Persona-synthesis conclusion from [hypothesis 01](drafts/persona-hypothesis-01.md#evidence-boundary) (sources: "chat"), stated as a pattern across 5 students but with no quote and no traced interview evidence ([recruitment.md](../recruitment.md#source-check)). The 5 searched only Idealista, so it cannot yet separate scarcity from search inefficiency. Contradicts the [riskiest assumption](../assumptions.md#riskiest-assumption); tested by [Card 1](../experiment-card.md#card-1-supply-audit) |
 | Early nudges would make them start earlier | HYPOTHESIS | Not asked or tested |
 | 6–7 matching verified options would stop panic-settling | HYPOTHESIS | Luca's stated preference only |
 

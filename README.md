@@ -8,10 +8,12 @@ IE University, Rapid Prototyping with AI, Group Project I. International student
 |---|---|
 | [downloads/](downloads/) | Course helper prompts that set the format of each evidence-log file |
 | [evidence-log/opportunity.md](evidence-log/opportunity.md) | Target user, pain point, insight, How Might We, evidence base |
+| [evidence-log/opportunity-v02.md](evidence-log/opportunity-v02.md) | Proposed successor to opportunity.md after the ERRC exercise; additions await team confirmation |
 | [evidence-log/goals.md](evidence-log/goals.md) | Sprint goal and longer-term business goals |
 | [evidence-log/jtbd.md](evidence-log/jtbd.md) | Job to Be Done: arrive at university already settled |
 | [evidence-log/assumptions.md](evidence-log/assumptions.md) | All assumptions by risk area with evidence status, highest-risk hypothesis and blocking roadblocks |
 | [evidence-log/experiment-card.md](evidence-log/experiment-card.md) | Experiment cards: supply audit, concierge pilot, landlord response test |
+| [evidence-log/ERRC.md](evidence-log/ERRC.md) | Eliminate-Reduce-Raise-Create grid and the value-innovation hypothesis tested by the concierge pilot |
 | [evidence-log/recruitment.md](evidence-log/recruitment.md) | Recruitment, screening criteria, index of the 15 interviews and source check |
 | [evidence-log/personas/ai-persona-01.md](evidence-log/personas/ai-persona-01.md) | Selected persona 01, primary user: Deadline Panic Settler |
 | [evidence-log/personas/ai-persona-02.md](evidence-log/personas/ai-persona-02.md) | Selected persona 02: Prepared Insider (n=1); premium or early-adopter role is HYPOTHESIS |
@@ -21,4 +23,5 @@ IE University, Rapid Prototyping with AI, Group Project I. International student
 | [supporting/verification.md](supporting/verification.md) | What "verified" means, verification levels, scam red flags, tests |
 | [supporting/market/competitors.md](supporting/market/competitors.md) | Sourced competitor table: portals, booking platforms, residences, IE housing services, AI assistants |
 | [supporting/market/market-sizing.md](supporting/market/market-sizing.md) | New international bachelor's students per year at IE (sourced), provisional Madrid-campus scenarios, unresolved steps, other Madrid universities |
+| [supporting/value-curve/](supporting/value-curve/README.md) | Strategy canvas (SVG) and 0–5 score table: Idealista, Spotahome, HousingAnywhere, agent, our platform (target levels) |
 | [supporting/research/](supporting/research/README.md) | Research tools: supply-audit CSV, student survey, landlord interview guide, legal review brief |
