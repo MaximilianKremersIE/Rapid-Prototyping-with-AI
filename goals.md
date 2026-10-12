@@ -1,13 +1,15 @@
 ---
 name: goals
-description: Team and business goals for housing platform venture; current sprint goal is legal operability
+description: Team and business goals for housing platform venture; current sprint goal is testing the riskiest assumption (discovery value), with legal review in parallel
 sources: [chat]
 aliases: [project goals, sprint goals]
 ---
 
 ## Current Sprint Goal
 
-**Prove that the platform can legally operate in Spain under GDPR and Spanish data protection law.** This is the critical blocker. If data privacy regulations prevent operation, the entire idea fails before market viability or user adoption can be tested.
+**Prove that consolidated discovery surfaces materially more available, matching listings than students find on their own.** This is the riskiest assumption (see `riskiest-assumption.md`). If it fails, the value proposition fails, whatever the legal or revenue picture.
+
+**In parallel:** get a short written legal review (GDPR, terms for accessing listings, Ley 12/2023) to set design constraints. This is a must-check constraint, not the sprint's main question.
 
 ## Longer-Term Business Goals (Team Intent)
 
@@ -23,7 +25,7 @@ aliases: [project goals, sprint goals]
 
 ## Constraints & Assumptions Guiding the Work
 
-- Legal operability is the gating blocker; everything else waits on that
+- Discovery value is the riskiest assumption and is tested first; legal operability is a must-check constraint, reviewed in parallel and designed around where possible
 - International student housing search has annual cohort cycles; time-to-market matters for capturing each cohort
 - The competitive landscape is crowded with AI assistants; differentiation must be clear
 - Network effects (student ambassadors) may be necessary for growth, but this is unvalidated
