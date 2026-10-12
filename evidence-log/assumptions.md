@@ -61,7 +61,7 @@ Can we deliver the service reliably?
 Is there enough supply, landlord engagement and room in the market for a viable business?
 
 - **Critical. Highest-risk hypothesis.** Must be true: consolidated discovery surfaces materially more available listings that match a student's criteria than the student finds on their own (mostly on Idealista), early enough to sign before arrival.
-  - Status: HYPOTHESIS, with a contradicting signal: persona 01 records "market scarcity, not search inefficiency" as the bottleneck (SUPPORTED across 5 students).
+  - Status: HYPOTHESIS, with a contradicting signal: persona 01 records "market scarcity, not search inefficiency" as the bottleneck (HYPOTHESIS: a persona-synthesis conclusion in [persona-hypothesis-01.md](personas/drafts/persona-hypothesis-01.md#evidence-boundary), sources: "chat", stated for all 5 students but with no quote and no traced interview evidence; see [recruitment.md](recruitment.md#source-check). The 5 searched only Idealista, so this cannot yet separate scarcity from search inefficiency).
   - Evidence needed: share of available matching listings that are not on Idealista, from a 2-week multi-source supply audit ([Card 1](experiment-card.md#card-1-supply-audit)).
 - **Critical. Blocking roadblock 2.** Must be true: landlords and agencies respond to students who come through us as they would to any tenant.
   - Status: HYPOTHESIS, with a contradicting signal: Luca sent 10 messages and got 2 replies, one already rented (REPORTED, one interview).
