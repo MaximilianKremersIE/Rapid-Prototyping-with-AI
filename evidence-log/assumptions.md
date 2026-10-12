@@ -1,44 +1,82 @@
 ---
 name: assumptions
-description: All assumptions for the housing discovery platform by risk area, the riskiest assumption, how it was chosen, and the test that resolves it; legal operability reclassified as a must-check constraint
-sources: [chat, opportunity.md, ../supporting/verification.md]
+description: All assumptions for the housing discovery platform by risk area, each with an evidence status; the highest-risk hypothesis (discovery value), the two blocking roadblocks (legal operability, landlords responding) and how they were ranked
+sources: [chat, opportunity.md, recruitment.md, experiment-card.md, personas/drafts/persona-hypothesis-01.md, personas/drafts/persona-hypothesis-02.md, ../supporting/verification.md]
 aliases: [assumptions, riskiest assumption, leap of faith]
 ---
 
 # Assumptions
 
-**Status:** Proposed. Replaces "legal operability" as the riskiest assumption.
+## Evidence status labels
 
-## Assumptions by Risk Area
+| Label | Meaning |
+|---|---|
+| REPORTED | Reported in existing persona documents as something students said in interviews. Source verification pending: not yet traced to transcripts or notes (see [recruitment.md](recruitment.md#source-check)) |
+| SUPPORTED | A pattern across several interviews, or a stated preference consistent with other reports. Still not observed behaviour |
+| HYPOTHESIS | We believe it; only indirect or contradicting signals so far |
+| UNTESTED | No evidence collected |
 
-### Area 1: Trust & User Adoption
-- Students trust the platform and its listings
-- Students trust the agencies/landlords being surfaced
-- Students trust the AI to understand nuanced requirements (e.g., proximity to specific campus buildings or gyms)
-- Students are willing to pay a small fee for the service
-- Student ambassadors have real influence within the university to drive network effects
+**No assumption below has been verified by a test yet.** The tests are in [experiment-card.md](experiment-card.md).
 
-**Evidence status:** Observations from 15 interviews; validation gaps remain on willingness to pay and ambassador influence
+"Critical" marks the assumptions we test first in each area (high impact if false, weak evidence). TODO (team): confirm the critical selection; the course asks the team to choose at least two per area.
 
-### Area 2: Technical & Product Capability
-- AI can access real estate websites reliably (scraping or API access)
-- AI can communicate with agencies/vendors directly via email
-- Platform works in real-time
-- Supports English and Spanish
-- Covers city-specific websites relevant to target universities
-- Users can set guardrails on how far the agent can reach
+## Area 1: Trust & User Adoption
 
-**Evidence status:** Unvalidated; requires prototype testing with real users
+Will students actually trust and act on what the platform shows them?
 
-### Area 3: Vendor & Market Viability
-- Landlords/agencies see visibility and client-connection benefits
-- Landlords/agencies are willing to respond to AI outreach as they would to real customers
-- Target universities have sufficient international student populations
-- Revenue model is sustainable (subscription + potential ads + data + partnerships)
-- Competitive defensibility exists in a crowded AI space
-- **No legal restrictions (specifically data privacy laws) prevent the platform from functioning**
+- **Critical.** Must be true: students trust the platform and its listings enough to contact landlords through it.
+  - Status: HYPOTHESIS. Valentina said verification "would have made me feel even better" (REPORTED, one student, stated preference only).
+  - Evidence needed: verified listings get a higher contact rate and faster decisions than the same listings unverified, in a prototype A/B test ([verification.md](../supporting/verification.md#assumptions-to-validate)).
+- **Critical.** Must be true: students trust the landlords and agencies we surface enough to sign remotely, before arrival.
+  - Status: HYPOTHESIS. Today they don't: João met a scam; Mariana and Valentina signed from photos and couldn't verify anything (REPORTED).
+  - Evidence needed: most concierge-pilot students sign remotely and rate confidence after signing above the interview baseline ([Card 2](experiment-card.md#card-2-concierge-pilot)).
+- Must be true: students trust the AI to understand nuanced requirements (e.g. distance to a specific campus building or gym).
+  - Status: UNTESTED.
+- Must be true: students will pay a small fee for the service.
+  - Status: HYPOTHESIS. One stated-preference signal (Valentina); the €600–900 budget group is likely price-sensitive. Tested after the highest-risk hypothesis is resolved.
+- Must be true: student ambassadors have enough influence at the university to drive network effects.
+  - Status: UNTESTED.
 
-**Evidence status:** Requires vendor interviews, revenue modeling, competitive analysis, legal/regulatory research
+## Area 2: Technical & Product Capability
+
+Can we deliver the service reliably?
+
+- **Critical.** Must be true: the AI can access listing sources reliably (official feeds, APIs, partnerships or scraping).
+  - Status: UNTESTED. Depends on the legal review (blocking roadblock 1).
+  - Evidence needed: TODO (team): define a technical spike for the sources the supply audit shows matter most ([Card 1](experiment-card.md#card-1-supply-audit)).
+- **Critical.** Must be true: the AI can contact agencies and landlords by email, or draft messages the student sends.
+  - Status: UNTESTED. Messaging on a student's behalf is a legal question ([legal-review-brief.md](../supporting/research/legal-review-brief.md)).
+  - Evidence needed: replies to AI-drafted messages arrive at least as often as the interview baseline ([Card 3](experiment-card.md#card-3-landlord-response-test)).
+- Must be true: the platform works in real time.
+  - Status: UNTESTED.
+- Must be true: the platform supports English and Spanish.
+  - Status: UNTESTED as a capability. The need is REPORTED: Gabriel and Camille (no Spanish) met more friction than the others.
+- Must be true: it covers the city-specific websites relevant to target universities.
+  - Status: UNTESTED. The supply audit lists the Madrid sources.
+- Must be true: users can set guardrails on how far the agent can act.
+  - Status: UNTESTED.
+
+## Area 3: Vendor & Market Viability
+
+Is there enough supply, landlord engagement and room in the market for a viable business?
+
+- **Critical. Highest-risk hypothesis.** Must be true: consolidated discovery surfaces materially more available listings that match a student's criteria than the student finds on their own (mostly on Idealista), early enough to sign before arrival.
+  - Status: HYPOTHESIS, with a contradicting signal: persona 01 records "market scarcity, not search inefficiency" as the bottleneck (SUPPORTED across 5 students).
+  - Evidence needed: share of available matching listings that are not on Idealista, from a 2-week multi-source supply audit ([Card 1](experiment-card.md#card-1-supply-audit)).
+- **Critical. Blocking roadblock 2.** Must be true: landlords and agencies respond to students who come through us as they would to any tenant.
+  - Status: HYPOTHESIS, with a contradicting signal: Luca sent 10 messages and got 2 replies, one already rented (REPORTED, one interview).
+  - Evidence needed: reply rate and reply time to enquiries sent through us, against that baseline ([Card 3](experiment-card.md#card-3-landlord-response-test)).
+- **Critical. Blocking roadblock 1.** Must be true: no legal restriction (GDPR and Spanish data protection, terms for accessing listings, Ley 12/2023) stops the platform from working.
+  - Status: UNTESTED. No legal review yet.
+  - Evidence needed: a written review from an IE Law professor answering the questions in [legal-review-brief.md](../supporting/research/legal-review-brief.md).
+- Must be true: landlords and agencies see visibility and client-connection benefits.
+  - Status: UNTESTED. No vendor feedback yet; see [landlord-interview-guide.md](../supporting/research/landlord-interview-guide.md).
+- Must be true: target universities have enough international students.
+  - Status: HYPOTHESIS. The ~9,570 figure in [opportunity.md](opportunity.md#target-user) is **unverified**: no source is cited. TODO (team): replace it with sourced market sizing.
+- Must be true: the revenue model is sustainable (subscription, ads, data, partnerships).
+  - Status: UNTESTED.
+- Must be true: we can defend a position in a crowded AI-assistant market.
+  - Status: UNTESTED.
 
 ## Riskiest assumption
 
@@ -46,19 +84,27 @@ aliases: [assumptions, riskiest assumption, leap of faith]
 
 Our problem statement says the problem is discovery: the market is fragmented and the process is arduous. This assumption is what that claim depends on. If almost everything a student needs is already on Idealista, putting listings in one place adds little, and the value proposition collapses into "Idealista with a nicer interface", which a general AI assistant can also offer.
 
+## Blocking roadblocks
+
+These are not the riskiest assumption, but each one stops launch if it fails. They run in parallel with the supply audit.
+
+1. **Legal operability.** If we can't lawfully access listings, process landlord data or message on a student's behalf, the product must change shape. Cheap to answer: a short expert review.
+2. **Landlords responding.** If landlords ignore enquiries that come through us, discovery never turns into a signed lease. Tested in [Card 3](experiment-card.md#card-3-landlord-response-test) and again in the concierge pilot.
+
 ## How it was chosen
 
 Riskiest means **most important to the idea** combined with **least evidence**. The question is whether the idea dies if the assumption is false, and whether we already know the answer.
 
-| Assumption | Kills the idea if false? | Evidence today | Cost to test | Verdict |
-|---|---|---|---|---|
-| Consolidated discovery surfaces materially more matching, available listings | Yes: no reason to switch from Idealista | **None.** Personas even suggest the opposite ("market scarcity, not search inefficiency") | Low (2-week supply audit) | **Riskiest** |
-| Landlords and agencies respond to students coming through us | Yes: discovery doesn't turn into leases | Weak: 2 of 10 messages answered in one interview | Medium | Second riskiest; tested in the concierge pilot |
-| Students trust and act on a new platform | Partly: verification may solve it | Some interview quotes | Medium | Tested together with [verification](../supporting/verification.md) |
-| Someone pays | Yes, eventually | None | Medium | Test after the riskiest is resolved |
-| Legal operability (GDPR, listing access, Housing Law) | Could force design changes | None yet | **Low**: a 1-week legal review | **Must-check constraint**, run in parallel |
+| Assumption | Kills the idea if false? | Evidence today | Status | Cost to test | Verdict |
+|---|---|---|---|---|---|
+| Consolidated discovery surfaces materially more matching, available listings | Yes: no reason to switch from Idealista | **None.** Personas suggest the opposite ("market scarcity, not search inefficiency") | HYPOTHESIS | Low (2-week supply audit) | **Highest-risk hypothesis** |
+| Landlords and agencies respond to students coming through us | Yes: discovery doesn't turn into leases | Weak: 2 of 10 messages answered in one interview | HYPOTHESIS | Medium | **Blocking roadblock** |
+| Students trust and act on a new platform | Partly: verification may solve it | Some interview quotes | HYPOTHESIS | Medium | Tested with [verification](../supporting/verification.md) |
+| Someone pays | Yes, eventually | One stated preference | HYPOTHESIS | Medium | Test after the riskiest is resolved |
+| Legal operability (GDPR, listing access, Housing Law) | Could force design changes | None yet | UNTESTED | **Low**: a 1-week legal review | **Blocking roadblock**, run in parallel |
 
 ### Why legal is not the riskiest assumption
+
 Legal operability matters, but it isn't *uncertain* in the same way. Experts can answer it quickly, and the main risks can be designed around:
 
 - Ask students for explicit consent
@@ -68,37 +114,11 @@ Legal operability matters, but it isn't *uncertain* in the same way. Experts can
 
 Spending a whole sprint on legal alone delays the question that decides whether the business exists at all.
 
-## The test: supply audit
+## Tests
 
-**Goal:** find out whether discovery outside Idealista is real, and how big it is.
-
-1. **Define 3–5 realistic student briefs** from the interviews. Example: room or studio, €600–900/month, within 30 min of IE Tower / María de Molina, move-in 1 September.
-2. **Search every source for 2 weeks**, using each brief: Idealista, Fotocasa, Habitaclia, Badi, Spotahome, HousingAnywhere, Uniplaces, student residences, agency websites, and Facebook/WhatsApp housing groups.
-3. **Log each matching listing** in a shared sheet: source, address or area, price, size, date found, and whether it also appears on Idealista (match by photos, address or price).
-4. **Check availability** for a sample: contact 20 listings per source and record the reply rate and whether the listing was still available.
-5. **Calculate:**
-   - Unique matching listings per brief across all sources, compared with Idealista alone
-   - Share of matching listings not on Idealista
-   - Share of non-Idealista listings that are actually available
-   - Reply rate and reply time for each source
-
-### Decision thresholds (agree on these before running the test)
-
-| Result | Meaning | Action |
-|---|---|---|
-| ≥30% of available matching listings are **not** on Idealista | Discovery value is real | Proceed: aggregation is the core, verification is the trust layer |
-| 15–30% | Moderate discovery value | Proceed, but lead with speed and verification, with aggregation as a supporting feature |
-| <15% | Little extra discovery value | Pivot the value proposition: start earlier, contact landlords faster, verify listings, help with trade-offs. Re-examine the problem statement |
-
-These thresholds are a starting proposal. The team should agree on them before seeing the data.
-
-## Follow-on test: concierge pilot
-
-If the audit passes, run the full flow by hand for 5–10 students who are searching now (for example, exchange students arriving for the spring semester). Compare against the interview baseline:
-
-- Days before arrival that they signed (baseline: about 2 weeks)
-- How many matching options they could choose from (baseline: often one)
-- Whether they got their first-choice neighbourhood or gave up a criterion
-- Confidence after signing (1–5)
-
-This tests the second-riskiest assumption (landlords respond) and the outcome we actually promise: **arriving already settled**.
+| Order | Test | Assumption | Card |
+|---|---|---|---|
+| 1 | Supply audit | Highest-risk hypothesis (discovery value) | [Card 1](experiment-card.md#card-1-supply-audit) |
+| 2 | Concierge pilot | Arriving settled; students sign remotely | [Card 2](experiment-card.md#card-2-concierge-pilot) |
+| 3 | Landlord response test | Blocking roadblock 2 | [Card 3](experiment-card.md#card-3-landlord-response-test) |
+| Parallel | Legal review | Blocking roadblock 1 | [legal-review-brief.md](../supporting/research/legal-review-brief.md) |

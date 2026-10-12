@@ -7,7 +7,7 @@ aliases: [housing platform, student housing opportunity]
 
 ## Target User
 
-International students relocating to new cities for university study, often for the first time, with no prior experience navigating real estate websites, local rental systems, or housing searches. Primary initial market: IE University Madrid, ~9,570 target students (approximately 10,000 new students + 1,000 3rd-year transfers, excluding ~13% already-local Spanish students).
+International students relocating to new cities for university study, often for the first time, with no prior experience navigating real estate websites, local rental systems, or housing searches. Primary initial market: IE University Madrid, ~9,570 target students (approximately 10,000 new students + 1,000 3rd-year transfers, excluding ~13% already-local Spanish students). **Unverified:** these figures have no cited source. TODO (team): replace with sourced market sizing.
 
 ## Situation & Problem
 
@@ -48,9 +48,9 @@ All assumptions, grouped by risk area, with the riskiest-assumption ranking and 
 
 ## Riskiest Assumption
 
-**Consolidated discovery surfaces materially more available listings that match a student's criteria than the student finds on their own (mostly Idealista), early enough to sign before arrival.** If most matching listings are already on Idealista, consolidation adds little and the value proposition collapses. Reasoning and test plan: [assumptions.md](assumptions.md#the-test-supply-audit).
+**Consolidated discovery surfaces materially more available listings that match a student's criteria than the student finds on their own (mostly Idealista), early enough to sign before arrival.** If most matching listings are already on Idealista, consolidation adds little and the value proposition collapses. Reasoning: [assumptions.md](assumptions.md#riskiest-assumption). Test plan: [experiment-card.md](experiment-card.md#card-1-supply-audit).
 
-Legal operability (GDPR, Spanish data protection, terms for accessing listings, and the 2023 Housing Law on who pays agency fees) is now a **must-check constraint** that runs in parallel. It is critical, but cheap to resolve and largely possible to design around.
+Legal operability (GDPR, Spanish data protection, terms for accessing listings, and the 2023 Housing Law on who pays agency fees) and landlords responding are **blocking roadblocks** that run in parallel. Legal is critical, but cheap to resolve and largely possible to design around ([legal-review-brief.md](../supporting/research/legal-review-brief.md)).
 
 ## Current Evidence Base
 
