@@ -9,7 +9,7 @@ aliases: [project goals, sprint goals]
 
 **Prove that consolidated discovery surfaces materially more available, matching listings than students find on their own.** This is the riskiest assumption (see [assumptions.md](assumptions.md)). If it fails, the value proposition fails, whatever the legal or revenue picture.
 
-**In parallel:** get a short written legal review (GDPR, terms for accessing listings, Ley 12/2023) to set design constraints. This is a must-check constraint, not the sprint's main question.
+**In parallel:** get a short written legal review (GDPR, terms for accessing listings, Ley 12/2023) to set design constraints. This is a blocking roadblock, not the sprint's main question.
 
 ## Longer-Term Business Goals (Team Intent)
 
@@ -25,7 +25,7 @@ aliases: [project goals, sprint goals]
 
 ## Constraints & Assumptions Guiding the Work
 
-- Discovery value is the riskiest assumption and is tested first; legal operability is a must-check constraint, reviewed in parallel and designed around where possible
+- Discovery value is the riskiest assumption and is tested first; legal operability and landlords responding are blocking roadblocks, tested in parallel and designed around where possible
 - International student housing search has annual cohort cycles; time-to-market matters for capturing each cohort
 - The competitive landscape is crowded with AI assistants; differentiation must be clear
 - Network effects (student ambassadors) may be necessary for growth, but this is unvalidated
