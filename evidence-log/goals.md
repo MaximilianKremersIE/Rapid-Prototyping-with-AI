@@ -1,13 +1,13 @@
 ---
 name: goals
 description: Team and business goals for housing platform venture; current sprint goal is testing the riskiest assumption (discovery value), with legal review in parallel
-sources: [chat]
+sources: [chat, assumptions.md]
 aliases: [project goals, sprint goals]
 ---
 
 ## Current Sprint Goal
 
-**Prove that consolidated discovery surfaces materially more available, matching listings than students find on their own.** This is the riskiest assumption (see `riskiest-assumption.md`). If it fails, the value proposition fails, whatever the legal or revenue picture.
+**Prove that consolidated discovery surfaces materially more available, matching listings than students find on their own.** This is the riskiest assumption (see [assumptions.md](assumptions.md)). If it fails, the value proposition fails, whatever the legal or revenue picture.
 
 **In parallel:** get a short written legal review (GDPR, terms for accessing listings, Ley 12/2023) to set design constraints. This is a must-check constraint, not the sprint's main question.
 
