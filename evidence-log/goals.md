@@ -37,3 +37,4 @@ aliases: [project goals, sprint goals]
 - No prototype testing
 - No vendor outreach
 - No revenue model validation
+- Competitor research done from official sources ([competitors.md](../supporting/market/competitors.md)); market sizing partly sourced, with the number needing a private rental unresolved ([market-sizing.md](../supporting/market/market-sizing.md))

@@ -7,7 +7,7 @@ aliases: [housing platform, student housing opportunity]
 
 ## Target User
 
-International students relocating to new cities for university study, often for the first time, with no prior experience navigating real estate websites, local rental systems, or housing searches. Primary initial market: IE University Madrid, ~9,570 target students (approximately 10,000 new students + 1,000 3rd-year transfers, excluding ~13% already-local Spanish students). **Unverified:** these figures have no cited source. TODO (team): replace with sourced market sizing.
+International students relocating to new cities for university study, often for the first time, with no prior experience navigating real estate websites, local rental systems, or housing searches. Primary initial market: IE University Madrid. Sourced: **1,731 new foreign-nationality bachelor's students a year** at IE across both campuses (Ministry of Universities, 2024-25). Provisional scenario: ~1,300–1,370 of them on the Madrid campus. Master's intake is unresolved. **The number of international students needing a private rental in Madrid each year is unresolved** ([market-sizing.md](../supporting/market/market-sizing.md)). This replaces the previous unsourced figure of ~9,570. TODO (team): get new intake by campus from IE Admissions and the private-renter share from the student survey.
 
 ## Situation & Problem
 
@@ -58,7 +58,7 @@ Legal operability (GDPR, Spanish data protection, terms for accessing listings, 
 - No vendor/landlord feedback yet
 - No user testing with prototype
 - No legal/regulatory review
-- No competitive landscape analysis
+- Competitor research from official sources ([competitors.md](../supporting/market/competitors.md)); market sizing partly sourced, private-renter count unresolved ([market-sizing.md](../supporting/market/market-sizing.md))
 - No revenue model validation
 
 ## Open Validation Gaps

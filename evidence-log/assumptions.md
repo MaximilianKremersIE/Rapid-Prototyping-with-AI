@@ -72,11 +72,11 @@ Is there enough supply, landlord engagement and room in the market for a viable 
 - Must be true: landlords and agencies see visibility and client-connection benefits.
   - Status: UNTESTED. No vendor feedback yet; see [landlord-interview-guide.md](../supporting/research/landlord-interview-guide.md).
 - Must be true: target universities have enough international students.
-  - Status: HYPOTHESIS. The ~9,570 figure in [opportunity.md](opportunity.md#target-user) is **unverified**: no source is cited. TODO (team): replace it with sourced market sizing.
+  - Status: HYPOTHESIS. Sourced market data: 1,731 new foreign-nationality bachelor's students a year at IE, both campuses, 2024-25; ~1,300–1,370 on the Madrid campus is a provisional scenario ([market-sizing.md](../supporting/market/market-sizing.md)). Master's intake and the number needing a private rental are unresolved. TODO (team): get them from IE Admissions and the student survey.
 - Must be true: the revenue model is sustainable (subscription, ads, data, partnerships).
   - Status: UNTESTED.
 - Must be true: we can defend a position in a crowded AI-assistant market.
-  - Status: UNTESTED.
+  - Status: UNTESTED. Competitor research describes what others offer, not whether our differentiation works: conversational search over idealista already exists inside ChatGPT, and payment protection exists only inside single platforms ([competitors.md](../supporting/market/competitors.md)).
 
 ## Riskiest assumption
 
