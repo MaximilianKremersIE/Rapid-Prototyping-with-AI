@@ -30,25 +30,25 @@ An AI housing-discovery service for international students moving to Madrid. It 
 
 These are open questions, not conclusions. We are not lawyers; please confirm or correct each one against the primary law.
 
-**How we found these sources:** all were found through a web search on 2026-10-12. Our environment could not open the pages themselves, so we saw only search-result summaries. TODO (team): open each link, check it says what is summarised here, and record the date you accessed it.
+**All sources below are unverified references for expert review.** They were found through a web search on 2026-10-12. Our environment could not open the pages, so we saw only search-result summaries and have not checked the content ourselves. TODO (team): open each link, check it says what is summarised here, and record the date you accessed it.
 
 ### Official sources
 
-| Question | What we want checked | Source | Found | Opened |
+| Question | What we want checked | Source | Found | Status |
 |---|---|---|---|---|
-| 4 | Does Ley 12/2023, final provision 1, section 2, amend Article 20.1 LAU so that property-management and contract-formalisation costs fall on the landlord? Spain's consumer authority appears to say charging tenants these fees is illegal | [Ministerio de Derechos Sociales, Consumo y Agenda 2030, press release](https://www.dsca.gob.es/es/comunicacion/notas-prensa/consumo-advierte-inmobiliarias-es-ilegal-cobrar-comision-gestion-personas) | 2026-10-12 (search) | TODO (team) |
-| 2 | Does Article 7 give a database maker the right to stop extraction or re-use of a substantial part of its contents, and does it cover listing portals? | [Directive 96/9/EC, Chapter III (UK government archive copy)](https://www.legislation.gov.uk/eudr/1996/9/chapter/III) | 2026-10-12 (search) | TODO (team) |
+| 4 | Does Ley 12/2023, final provision 1, section 2, amend Article 20.1 LAU so that property-management and contract-formalisation costs fall on the landlord? Spain's consumer authority appears to say charging tenants these fees is illegal | [Ministerio de Derechos Sociales, Consumo y Agenda 2030, press release](https://www.dsca.gob.es/es/comunicacion/notas-prensa/consumo-advierte-inmobiliarias-es-ilegal-cobrar-comision-gestion-personas) | 2026-10-12 (search) | Unverified reference: not opened |
+| 2 | Does Article 7 give a database maker the right to stop extraction or re-use of a substantial part of its contents, and does it cover listing portals? | [Directive 96/9/EC, Chapter III (UK government archive copy)](https://www.legislation.gov.uk/eudr/1996/9/chapter/III) | 2026-10-12 (search) | Unverified reference: not opened |
 
-Primary texts we could not reach and would like you to rely on: [Ley 12/2023 on BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203), [GDPR on EUR-Lex](https://eur-lex.europa.eu/eli/reg/2016/679/oj), [Directive 96/9/EC on EUR-Lex](https://eur-lex.europa.eu/eli/dir/1996/9/oj). TODO (team): open these and record the date accessed.
+Primary texts (unverified references: we could not open them) that we would like you to rely on: [Ley 12/2023 on BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203), [GDPR on EUR-Lex](https://eur-lex.europa.eu/eli/reg/2016/679/oj), [Directive 96/9/EC on EUR-Lex](https://eur-lex.europa.eu/eli/dir/1996/9/oj). TODO (team): open these and record the date accessed.
 
 ### Secondary commentary
 
-| Question | What we want checked | Source | Found | Opened |
+| Question | What we want checked | Source | Found | Status |
 |---|---|---|---|---|
-| 4 | Same point on Ley 12/2023 and Article 20.1 LAU | [Primera Lectura, Boletín Mercantil 25/05/2023](https://www.primeralecturaediciones.com/Boletines/2023/05/25/Mercantil/BsM_20230525.pdf) | 2026-10-12 (search) | TODO (team) |
-| 1 | Is legitimate interest the realistic GDPR basis for scraping, subject to a necessity and balancing test, and do Article 14 notice duties apply? (Law-firm summary of EDPB guidance) | [Pinsent Masons, Out-Law](https://www.pinsentmasons.com/out-law/news/eu-guidance-helps-clarify-ai-web-scraping-requirements) | 2026-10-12 (search) | TODO (team) |
-| 2 | Does CJEU *Innoweb* (C-202/12) mean a meta-search engine that re-uses a site's database can infringe the database right? | [EU Law Radar summary](https://eulawradar.com/case-c-20212-innoweb-search-engines-copying-insubstantial-parts-of-a-website/) | 2026-10-12 (search) | TODO (team) |
-| 2 | Is the Danish first-instance decision *BoligPortal v ReData* (2025), reported as finding that scraping a rental-listings database infringed the database right, relevant in Spain? | [BDK Advokati summary](https://bdkadvokati.com/boligportal-v-redata-danish-court-finds-data-scraping-infringes-database-rights) | 2026-10-12 (search) | TODO (team) |
+| 4 | Same point on Ley 12/2023 and Article 20.1 LAU | [Primera Lectura, Boletín Mercantil 25/05/2023](https://www.primeralecturaediciones.com/Boletines/2023/05/25/Mercantil/BsM_20230525.pdf) | 2026-10-12 (search) | Unverified reference: not opened |
+| 1 | Is legitimate interest the realistic GDPR basis for scraping, subject to a necessity and balancing test, and do Article 14 notice duties apply? (Law-firm summary of EDPB guidance) | [Pinsent Masons, Out-Law](https://www.pinsentmasons.com/out-law/news/eu-guidance-helps-clarify-ai-web-scraping-requirements) | 2026-10-12 (search) | Unverified reference: not opened |
+| 2 | Does CJEU *Innoweb* (C-202/12) mean a meta-search engine that re-uses a site's database can infringe the database right? | [EU Law Radar summary](https://eulawradar.com/case-c-20212-innoweb-search-engines-copying-insubstantial-parts-of-a-website/) | 2026-10-12 (search) | Unverified reference: not opened |
+| 2 | Is the Danish first-instance decision *BoligPortal v ReData* (2025), reported as finding that scraping a rental-listings database infringed the database right, relevant in Spain? | [BDK Advokati summary](https://bdkadvokati.com/boligportal-v-redata-danish-court-finds-data-scraping-infringes-database-rights) | 2026-10-12 (search) | Unverified reference: not opened |
 
 ## How we will use the answer
 

@@ -37,6 +37,7 @@ Share of unique, matching listings with confirmed availability that are **not** 
 - **Matching:** meets every must-have in the brief (price, area or travel time, type, move-in date).
 - **Confirmed availability:** the landlord or agency replied that it is available for the brief's dates.
 - **Unknown availability** (not contacted, or no reply): excluded from both numerator and denominator, and reported separately as a count and share of all unique matching listings.
+- **Bias risk:** excluding non-responses can bias the result if reply rates differ between sources. For example, if Idealista landlords reply more often than Facebook-group landlords, non-Idealista listings are under-counted. Report confirmed-availability coverage per source next to the result, and read the metric with that in mind.
 
 Metric = unique, matching, confirmed-available listings not on Idealista ÷ all unique, matching, confirmed-available listings.
 
@@ -48,6 +49,10 @@ Proposed threshold, carried over from the earlier assumptions work and not deriv
 - **≥30%:** pass
 - **15% to <30%:** partial pass
 - **<15%:** fail
+
+**Minimum coverage (proposal, requiring team agreement before testing):** the bands apply only if at least half of the unique matching listings have confirmed availability. Below that, the result is inconclusive.
+
+**Extension rule (proposal, requiring team agreement before testing):** if coverage is below the minimum after 2 weeks, extend the audit by one week to contact the listings with unknown availability. No further extension.
 
 Threshold agreed by the team on: TODO (team): date.
 
@@ -69,12 +74,13 @@ MEDIUM: real listings and real landlord replies, but the briefs are built from i
 - If ≥30%: **continue (persevere)**. Aggregation is the core; verification is the trust layer. Run Card 2.
 - If 15% to <30%: **change (narrow)**. Lead with speed and verification; aggregation becomes a supporting feature. Run Card 2 with that framing.
 - If <15%: **change (pivot)**. Rework the value proposition around starting earlier, faster landlord contact, verification and trade-off help; re-examine the problem statement in [opportunity.md](opportunity.md) before running Card 2.
-- If fewer than half of the unique matching listings have confirmed availability: the result is ambiguous. **Continue** the audit for one more week, contacting the unknown listings, then apply the bands above once. No further extension.
+- The bands above are applied only if the minimum coverage is met, after the 2 weeks or after the one-week extension.
+- If coverage is still below the minimum after the extension: the result is **inconclusive**. Do not apply the bands and do not record persevere, narrow or pivot. TODO (team): agree before testing what the team does next in this case (for example, repeat the audit with a different contact method, or run Card 2 without a discovery result) and record it here.
 
 ### Results
 TODO (team): fill after the test runs.
 
-**Decision: persevere / narrow / pivot / stop** — TODO (team): circle one after results.
+**Decision: persevere / narrow / pivot / stop / inconclusive** — TODO (team): circle one after results. Inconclusive only if the minimum coverage was not met after the extension.
 
 ---
 
