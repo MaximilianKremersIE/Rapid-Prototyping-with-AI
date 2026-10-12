@@ -13,8 +13,10 @@ IE University, Rapid Prototyping with AI, Group Project I. International student
 | [evidence-log/assumptions.md](evidence-log/assumptions.md) | All assumptions by risk area with evidence status, highest-risk hypothesis and blocking roadblocks |
 | [evidence-log/experiment-card.md](evidence-log/experiment-card.md) | Experiment cards: supply audit, concierge pilot, landlord response test |
 | [evidence-log/recruitment.md](evidence-log/recruitment.md) | Recruitment, screening criteria, index of the 15 interviews and source check |
-| [evidence-log/personas/drafts/persona-hypothesis-01.md](evidence-log/personas/drafts/persona-hypothesis-01.md) | Persona hypothesis: Deadline Panic Settler |
-| [evidence-log/personas/drafts/persona-hypothesis-02.md](evidence-log/personas/drafts/persona-hypothesis-02.md) | Persona hypothesis: Prepared Insider |
+| [evidence-log/personas/ai-persona-01.md](evidence-log/personas/ai-persona-01.md) | Selected persona 01, primary user: Deadline Panic Settler |
+| [evidence-log/personas/ai-persona-02.md](evidence-log/personas/ai-persona-02.md) | Selected persona 02: Prepared Insider (n=1); premium or early-adopter role is HYPOTHESIS |
+| [evidence-log/personas/ai-persona-03.md](evidence-log/personas/ai-persona-03.md) | Selected persona 03, supply side: Small Landlord or Agency |
+| [evidence-log/personas/drafts/](evidence-log/personas/drafts/) | Persona hypotheses 01–06: Deadline Panic Settler, Prepared Insider, Paying Guarantor Parent, Small Landlord or Agency, One-Year Master's Student, One-Semester Exchange Student |
 | [prototype/README.md](prototype/README.md) | Prototype v0 link (Lovable) and PDF export (TODO: team) |
 | [supporting/verification.md](supporting/verification.md) | What "verified" means, verification levels, scam red flags, tests |
 | [supporting/research/](supporting/research/README.md) | Research tools: supply-audit CSV, student survey, landlord interview guide, legal review brief |
