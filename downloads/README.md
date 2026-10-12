@@ -17,4 +17,4 @@ Course helper prompts, copied from the course page. Each one sets the format of 
 | [ai-prompt-experiment-card.md](ai-prompt-experiment-card.md) | [experiment-card.md](../evidence-log/experiment-card.md) |
 | [ai-prompt-job-to-be-done.md](ai-prompt-job-to-be-done.md) | [jtbd.md](../evidence-log/jtbd.md) |
 | [ai-prompt-persona-builder.md](ai-prompt-persona-builder.md) | [personas/](../evidence-log/personas/) |
-| [ai-prompt-ERRC.md](ai-prompt-ERRC.md) | ERRC.md (TODO (team): not created yet) |
+| [ai-prompt-ERRC.md](ai-prompt-ERRC.md) | [ERRC.md](../evidence-log/ERRC.md), [opportunity-v02.md](../evidence-log/opportunity-v02.md) |
