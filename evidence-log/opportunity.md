@@ -44,38 +44,11 @@ AI-powered housing discovery platform that consolidates available listings from 
 
 ## Key Assumptions by Risk Area
 
-### Area 1: Trust & User Adoption
-- Students trust the platform and its listings
-- Students trust the agencies/landlords being surfaced
-- Students trust the AI to understand nuanced requirements (e.g., proximity to specific campus buildings or gyms)
-- Students are willing to pay a small fee for the service
-- Student ambassadors have real influence within the university to drive network effects
-
-**Evidence status:** Observations from 15 interviews; validation gaps remain on willingness to pay and ambassador influence
-
-### Area 2: Technical & Product Capability
-- AI can access real estate websites reliably (scraping or API access)
-- AI can communicate with agencies/vendors directly via email
-- Platform works in real-time
-- Supports English and Spanish
-- Covers city-specific websites relevant to target universities
-- Users can set guardrails on how far the agent can reach
-
-**Evidence status:** Unvalidated; requires prototype testing with real users
-
-### Area 3: Vendor & Market Viability
-- Landlords/agencies see visibility and client-connection benefits
-- Landlords/agencies are willing to respond to AI outreach as they would to real customers
-- Target universities have sufficient international student populations
-- Revenue model is sustainable (subscription + potential ads + data + partnerships)
-- Competitive defensibility exists in a crowded AI space
-- **No legal restrictions (specifically data privacy laws) prevent the platform from functioning**
-
-**Evidence status:** Requires vendor interviews, revenue modeling, competitive analysis, legal/regulatory research
+All assumptions, grouped by risk area, with the riskiest-assumption ranking and test: [assumptions.md](assumptions.md).
 
 ## Riskiest Assumption
 
-**Consolidated discovery surfaces materially more available listings that match a student's criteria than the student finds on their own (mostly Idealista), early enough to sign before arrival.** If most matching listings are already on Idealista, consolidation adds little and the value proposition collapses. Reasoning and test plan: `riskiest-assumption.md`.
+**Consolidated discovery surfaces materially more available listings that match a student's criteria than the student finds on their own (mostly Idealista), early enough to sign before arrival.** If most matching listings are already on Idealista, consolidation adds little and the value proposition collapses. Reasoning and test plan: [assumptions.md](assumptions.md#the-test-supply-audit).
 
 Legal operability (GDPR, Spanish data protection, terms for accessing listings, and the 2023 Housing Law on who pays agency fees) is now a **must-check constraint** that runs in parallel. It is critical, but cheap to resolve and largely possible to design around.
 

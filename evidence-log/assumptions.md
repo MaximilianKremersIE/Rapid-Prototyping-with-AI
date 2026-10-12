@@ -1,15 +1,46 @@
 ---
-name: riskiest-assumption
-description: The riskiest assumption for the housing discovery platform, how it was chosen, and the test that resolves it; legal operability reclassified as a must-check constraint
-sources: [chat]
-aliases: [riskiest assumption, leap of faith]
+name: assumptions
+description: All assumptions for the housing discovery platform by risk area, the riskiest assumption, how it was chosen, and the test that resolves it; legal operability reclassified as a must-check constraint
+sources: [chat, opportunity.md, ../supporting/verification.md]
+aliases: [assumptions, riskiest assumption, leap of faith]
 ---
 
-# Riskiest Assumption
+# Assumptions
 
 **Status:** Proposed. Replaces "legal operability" as the riskiest assumption.
 
-## The assumption
+## Assumptions by Risk Area
+
+### Area 1: Trust & User Adoption
+- Students trust the platform and its listings
+- Students trust the agencies/landlords being surfaced
+- Students trust the AI to understand nuanced requirements (e.g., proximity to specific campus buildings or gyms)
+- Students are willing to pay a small fee for the service
+- Student ambassadors have real influence within the university to drive network effects
+
+**Evidence status:** Observations from 15 interviews; validation gaps remain on willingness to pay and ambassador influence
+
+### Area 2: Technical & Product Capability
+- AI can access real estate websites reliably (scraping or API access)
+- AI can communicate with agencies/vendors directly via email
+- Platform works in real-time
+- Supports English and Spanish
+- Covers city-specific websites relevant to target universities
+- Users can set guardrails on how far the agent can reach
+
+**Evidence status:** Unvalidated; requires prototype testing with real users
+
+### Area 3: Vendor & Market Viability
+- Landlords/agencies see visibility and client-connection benefits
+- Landlords/agencies are willing to respond to AI outreach as they would to real customers
+- Target universities have sufficient international student populations
+- Revenue model is sustainable (subscription + potential ads + data + partnerships)
+- Competitive defensibility exists in a crowded AI space
+- **No legal restrictions (specifically data privacy laws) prevent the platform from functioning**
+
+**Evidence status:** Requires vendor interviews, revenue modeling, competitive analysis, legal/regulatory research
+
+## Riskiest assumption
 
 > **Consolidated discovery surfaces materially more available listings that match a student's criteria than the student finds on their own (mostly on Idealista), early enough for them to sign before arrival.**
 
@@ -23,7 +54,7 @@ Riskiest means **most important to the idea** combined with **least evidence**. 
 |---|---|---|---|---|
 | Consolidated discovery surfaces materially more matching, available listings | Yes: no reason to switch from Idealista | **None.** Personas even suggest the opposite ("market scarcity, not search inefficiency") | Low (2-week supply audit) | **Riskiest** |
 | Landlords and agencies respond to students coming through us | Yes: discovery doesn't turn into leases | Weak: 2 of 10 messages answered in one interview | Medium | Second riskiest; tested in the concierge pilot |
-| Students trust and act on a new platform | Partly: verification may solve it | Some interview quotes | Medium | Tested together with `verification.md` |
+| Students trust and act on a new platform | Partly: verification may solve it | Some interview quotes | Medium | Tested together with [verification](../supporting/verification.md) |
 | Someone pays | Yes, eventually | None | Medium | Test after the riskiest is resolved |
 | Legal operability (GDPR, listing access, Housing Law) | Could force design changes | None yet | **Low**: a 1-week legal review | **Must-check constraint**, run in parallel |
 

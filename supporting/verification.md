@@ -1,7 +1,7 @@
 ---
 name: verification
 description: What "verified" means on the platform, how we verify listings and landlords, and how we'll test whether verification changes student behaviour
-sources: [chat]
+sources: [chat, ../evidence-log/assumptions.md, ../evidence-log/opportunity.md]
 aliases: [listing verification, trust layer]
 ---
 
