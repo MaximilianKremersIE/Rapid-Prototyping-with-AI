@@ -1,13 +1,15 @@
 ---
 name: goals
-description: Team and business goals for housing platform venture; current sprint goal is testing the riskiest assumption (discovery value), with legal review in parallel
-sources: [chat, assumptions.md]
+description: Team and business goals for housing platform venture; current sprint goal is testing the riskiest assumption (discovery value), with legal review in parallel; status is prototype built, not yet tested
+sources: [chat, assumptions.md, experiment-card.md, ../prototype/README.md, venture-skeleton.md]
 aliases: [project goals, sprint goals]
 ---
 
 ## Current Sprint Goal
 
 **Prove that consolidated discovery surfaces materially more available, matching listings than students find on their own.** This is the riskiest assumption (see [assumptions.md](assumptions.md)). If it fails, the value proposition fails, whatever the legal or revenue picture.
+
+Tested by [Card 1: Supply audit](experiment-card.md#card-1-supply-audit), then [Card 2: Concierge pilot](experiment-card.md#card-2-concierge-pilot) and [Card 3: Landlord response test](experiment-card.md#card-3-landlord-response-test). No card has run; thresholds await team agreement.
 
 **In parallel:** get a short written legal review (GDPR, terms for accessing listings, Ley 12/2023) to set design constraints. This is a blocking roadblock, not the sprint's main question.
 
@@ -32,9 +34,17 @@ aliases: [project goals, sprint goals]
 
 ## Current Status
 
-- 15 interviews conducted with international students
+**Prototype built, not yet tested** (checked 2026-10-13, Europe/Madrid).
+
+- [Prototype v0](../prototype/README.md) is live on Lovable. Its 24 homes are labelled "illustrative sample data, not live market data" ([venture-skeleton.md](venture-skeleton.md), element 5). They are not real or verified listings, and no check status shown in the prototype has been carried out.
+- No user has tested the prototype; no experiment card has run ([experiment-card.md](experiment-card.md): Cards 1–3, results TODO (team)).
+- 15 interviews conducted with international students; none yet traced to notes or transcripts ([recruitment.md](recruitment.md#source-check))
 - Legal/regulatory path still unclear
-- No prototype testing
 - No vendor outreach
 - No revenue model validation
 - Competitor research done from official sources ([competitors.md](../supporting/market/competitors.md)); market sizing partly sourced, with the number needing a private rental unresolved ([market-sizing.md](../supporting/market/market-sizing.md))
+
+**Outstanding checks before any prototype test:**
+
+- TODO (team): individual listing pages (`/listing/<id>`) show "Page not found". Reported in [venture-skeleton.md](venture-skeleton.md) and seen again on 2026-10-13 when `cha-01`, `mal-01` and `tet-03` were loaded directly. Fix in Lovable, then re-check.
+- TODO (team): export `prototype/prototype-v0.pdf` (not in the repo yet; see [prototype/README.md](../prototype/README.md)).

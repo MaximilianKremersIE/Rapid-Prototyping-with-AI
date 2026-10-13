@@ -1,7 +1,7 @@
 ---
 name: opportunity
-description: Housing discovery platform helping international students arrive at university already settled; problem is fragmented, arduous discovery; 15 interviews conducted
-sources: [chat]
+description: Housing discovery platform helping international students arrive at university already settled; problem is fragmented, arduous discovery; 15 interviews conducted; NIE, guarantor and deposit pain point added as HYPOTHESIS pending an interview check
+sources: [chat, personas/drafts/persona-hypothesis-03.md, ../supporting/verification.md, ai-usage-log.md]
 aliases: [housing platform, student housing opportunity]
 ---
 
@@ -25,6 +25,18 @@ Current workarounds: pay agents (expensive), grind a single platform alone (drai
 The problem is **discovery**, and the process around it is arduous rather than simple. Listings are spread across Idealista, Fotocasa, Badi, Spotahome, HousingAnywhere, agency sites and private groups, and each shows only part of the market. Students don't know most of these exist, can't search them efficiently in a foreign language, and can't tell which listings are real, current or fairly priced. Every step (finding, filtering, contacting, verifying, applying) is manual and slow.
 
 Because the process is so slow, the calendar beats them. With about one month to go before university starts, students who haven't secured a place give up their criteria and panic-settle for whatever responds (wrong neighbourhood, overpriced, poor condition) just to have something locked in.
+
+### Possible pain point to check: NIE, guarantor and deposit
+
+**Status: HYPOTHESIS.** Raised in the team brief for this change (see [ai-usage-log.md](ai-usage-log.md)); not an established finding. No persona document or interview record in the repo mentions it.
+
+Even after finding a place, students may be blocked at the signing step by requirements that are hard to meet from abroad:
+
+- **NIE** (Spain's foreigner identity number): a landlord or agency may ask for it before the student can get one.
+- **Guarantor:** a landlord may ask for a Spain-based guarantor, or extra guarantees when the guarantor lives abroad ([persona hypothesis 03](personas/drafts/persona-hypothesis-03.md), also HYPOTHESIS).
+- **Deposit and upfront payment:** a student may be asked to send a deposit or several months' rent before seeing the flat, which is also a scam signal ([verification.md](../supporting/verification.md#red-flags-we-check-for-scam-signals)).
+
+TODO (team): check the 15 interviews. For each student, record whether they mentioned the NIE, a guarantor or the deposit, and what the landlord asked for. Add a quote and interview number for each mention in [recruitment.md](recruitment.md#interview-index). If no interview mentions them, drop this section or ask about it in the [landlord interviews](../supporting/research/landlord-interview-guide.md) and the [student survey](../supporting/research/student-survey.md) before using it.
 
 ## User Need
 
@@ -68,6 +80,7 @@ Legal operability (GDPR, Spanish data protection, terms for accessing listings, 
 - Do all students face the same one-month timeline, or does the deadline vary? (Some may start earlier; some may be last-minute arrivals.)
 - Is the constraint primarily *time scarcity* or *discovery difficulty*, or both? (This changes solution direction.)
 - What specifically needs to be "in place" for a student to feel settled beyond just housing? (Other factors: neighborhood familiarity, proximity to campus, housemate compatibility, etc.?)
+- Do the NIE, a guarantor or the deposit stop students signing before arrival? ([HYPOTHESIS](#possible-pain-point-to-check-nie-guarantor-and-deposit), interviews not yet checked)
 
 **Ongoing:**
 - How much will students actually pay for this service?
